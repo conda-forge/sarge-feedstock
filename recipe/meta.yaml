@@ -1,6 +1,6 @@
 {% set name = "sarge" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "59f93216723ddd9062d17cbbb90ed9e69267b84825cf0bde0b7f8d934c424823" %}
+{% set version = "0.1.5" %}
+{% set sha256 = "8e61e12d1024b2b363746322a36f0c31ec998ff2b069f42c8c0ed286747dd0ee" %}
 
 package:
   name: {{ name }}
