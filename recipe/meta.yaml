@@ -1,6 +1,6 @@
 {% set name = "sarge" %}
 {% set version = "0.1.5" %}
-{% set sha256 = "8e61e12d1024b2b363746322a36f0c31ec998ff2b069f42c8c0ed286747dd0ee" %}
+{% set sha256 = "da8cc90883f8e5ab4af0d746438f608662f5f2a35da2e858517927edefa134b0" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.post0.tar.gz
   sha256: {{ sha256 }}
 
 build:
