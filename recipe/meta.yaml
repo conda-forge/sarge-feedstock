@@ -1,6 +1,6 @@
 {% set name = "sarge" %}
-{% set version = "0.1.4" %}
-{% set sha256 = "59f93216723ddd9062d17cbbb90ed9e69267b84825cf0bde0b7f8d934c424823" %}
+{% set version = "0.1.5" %}
+{% set sha256 = "da8cc90883f8e5ab4af0d746438f608662f5f2a35da2e858517927edefa134b0" %}
 
 package:
   name: {{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.post0.tar.gz
   sha256: {{ sha256 }}
 
 build:
@@ -39,5 +39,5 @@ extra:
   recipe-maintainers:
     - takluyver
     - fangohr
-    - mb1a15
+    - marijanbeg
     - davidcortesortuno
