@@ -14,9 +14,8 @@ Summary: a wrapper for subprocess for interaction with external applications
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/sarge-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/sarge-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/sarge-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/sarge-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/sarge-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/sarge-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/sarge-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/sarge-feedstock)
 
 Current release info
 ====================
