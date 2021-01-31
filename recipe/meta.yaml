@@ -1,20 +1,18 @@
 {% set name = "sarge" %}
-{% set version = "0.1.5" %}
-{% set sha256 = "da8cc90883f8e5ab4af0d746438f608662f5f2a35da2e858517927edefa134b0" %}
+{% set version = "0.1.6" %}
 
 package:
   name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.post0.tar.gz
-  sha256: {{ sha256 }}
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sarge-{{ version }}.tar.gz
+  sha256: f48fb904e64f10ad6bef62422eaf4736acfd9b13ab64ba44822637a9dbb53265
 
 build:
   noarch: python
-  number: 1
-  script: python -m pip install --no-deps --ignore-installed .
+  number: 0
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -42,3 +40,4 @@ extra:
     - fangohr
     - marijanbeg
     - davidcortesortuno
+    - igortg
