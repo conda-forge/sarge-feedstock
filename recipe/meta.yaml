@@ -36,7 +36,6 @@ about:
 
 extra:
   recipe-maintainers:
-    - takluyver
     - fangohr
     - marijanbeg
     - davidcortesortuno
