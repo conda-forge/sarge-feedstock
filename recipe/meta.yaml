@@ -1,5 +1,5 @@
 {% set name = "sarge" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7.post1" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sarge-{{ version }}.tar.gz
-  sha256: f48fb904e64f10ad6bef62422eaf4736acfd9b13ab64ba44822637a9dbb53265
+  sha256: 64ff42ae6ef90acbded6318ed440ed63b31a669302fb60cf41265debea282a3d
 
 build:
   noarch: python
